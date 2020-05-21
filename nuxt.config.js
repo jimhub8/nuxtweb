@@ -46,7 +46,10 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/css/main.css'
+    '~/assets/css/main.css',
+    '~/assets/css/styles.css',
+    '~/assets/css/transport.css',
+    '~/assets/css/carousel.css',
   ],
   /*
   ** Plugins to load before mounting the App
