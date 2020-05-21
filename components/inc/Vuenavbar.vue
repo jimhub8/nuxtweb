@@ -3,8 +3,8 @@
     <header class="site-header site-header-sticky site-header-layout-normal site-header-style-transparent site-header-divider">
         <div class="nav-wrap">
             <div class="container">
-                <div class="site-logo"><a href="http://anpsthemes.com/transport-new-demos/7/"> <img class="logo-sticky" alt="Site logo" src="http://anpsthemes.com/transport-new-demos/7/wp-content/uploads/2017/12/logo-demo-7-sub.png">
-                        <img style="width: auto; height: autopx" alt="Site logo" src="http://anpsthemes.com/transport-new-demos/7/wp-content/uploads/2017/12/logo-demo-7.png">
+                <div class="site-logo"><a href="#"> <img class="logo-sticky" alt="Site logo" src="/images/logo.jpg">
+                        <img style="width: auto; height: autopx" alt="Site logo" src="/images/logo.jpg">
                     </a></div>
                 <div class="nav-bar-wrapper">
                     <div class="nav-bar">
