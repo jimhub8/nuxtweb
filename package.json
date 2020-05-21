@@ -1,0 +1,29 @@
+{
+  "name": "derricongbal",
+  "version": "1.0.0",
+  "description": "My gnarly Nuxt.js project",
+  "author": "Jimmy",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "element-ui": "^2.13.2",
+    "nuxt": "^2.0.0",
+    "nuxt-material-design-icons": "^1.0.4",
+    "vue-scrollto": "^2.18.1",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
