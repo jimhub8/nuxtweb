@@ -17,19 +17,19 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9.2' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.4' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesom' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/js/owl//assets/owl.carousel.css?ver=4.9.14' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/transport.css?ver=4.9.14' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat%3A400italic%2C400%2C500%2C600%2C700%2C300&#038;subset=latin%2Clatin-' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/style.css?ver=4.9.14' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/core.css?ver=4.9.14' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9.2' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.4' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesom' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/js/owl//assets/owl.carousel.css?ver=4.9.14' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/transport.css?ver=4.9.14' },
+      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat%3A400italic%2C400%2C500%2C600%2C700%2C300&#038;subset=latin%2Clatin-' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/style.css?ver=4.9.14' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/core.css?ver=4.9.14' },
 
 
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/wordpress.css?ver=4.9.14' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/custom.css?ver=4.9.14' },
-      { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.5' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/wordpress.css?ver=4.9.14' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/custom.css?ver=4.9.14' },
+      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.5' },
 
 
 
