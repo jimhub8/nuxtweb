@@ -1,29 +1,31 @@
 <template>
 <div style="padding: 30px 0" id="services">
-  <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;"><h2 data-v-6225075b=""><span data-v-6225075b="">Our Services</span></h2></div>
-<el-carousel :interval="5000" arrow="always">
-    <el-carousel-item v-for="(item, index) in chunkedItems" :key="index">
-        <v-app>
-            <v-row>
-                <v-col v-for="product in item" :key="product.id" cols="12" sm="12" md="3" lg="3">
-                    <v-hover v-slot:default="{ hover }">
-                        <v-card class="mx-auto" color="grey lighten-4" max-width="800">
-                            <v-img :aspect-ratio="16/9" :src="product.image" height="300px">
-                                <v-expand-transition>
-                                    <div v-if="hover" class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-3 white--text" style="height: 100%;">
-                                        <small style="margin: auto;font-size: 20px;">{{ product.title }}</small>
-                                    </div>
-                                </v-expand-transition>
-                            </v-img>
-                        </v-card>
-                    </v-hover>
+    <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;">
+        <h2 data-v-6225075b=""><span data-v-6225075b="">Our Services</span></h2>
+    </div>
+    <el-carousel :interval="5000" arrow="always">
+        <el-carousel-item v-for="(item, index) in chunkedItems" :key="index">
+            <v-app>
+                <v-row>
+                    <v-col v-for="product in item" :key="product.id" cols="12" sm="12" md="3" lg="3">
+                        <v-hover v-slot:default="{ hover }">
+                            <v-card class="mx-auto" color="grey lighten-4" max-width="800">
+                                <v-img :aspect-ratio="16/9" :src="product.image" height="300px">
+                                    <v-expand-transition>
+                                        <div v-if="hover" class="d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-3 white--text" style="height: 100%;">
+                                            <small style="margin: auto;font-size: 20px;">{{ product.title }}</small>
+                                        </div>
+                                    </v-expand-transition>
+                                </v-img>
+                            </v-card>
+                        </v-hover>
 
-                </v-col>
-            </v-row>
-        </v-app>
+                    </v-col>
+                </v-row>
+            </v-app>
 
-    </el-carousel-item>
-</el-carousel>
+        </el-carousel-item>
+    </el-carousel>
 </div>
 </template>
 
@@ -145,14 +147,27 @@ export default {
         height: 40vh;
         overflow: hidden;
     }
+
+    .rev_slider .tp-mask-wrap .tp-caption,
+    .rev_slider .tp-mask-wrap :last-child,
+    .wpb_text_column .rev_slider .tp-mask-wrap .tp-caption,
+    .wpb_text_column .rev_slider .tp-mask-wrap :last-child {
+        font-size: 16px !important;
+        float: left !important;
+        margin-left: -110px !important;
+    }
+
 }
+
 
 .el-carousel__indicators--horizontal {
     display: none;
 }
-.v-application--wrap{
-  background: #fff;
+
+.v-application--wrap {
+    background: #fff;
 }
+
 .box-title h2 {
     position: relative;
     float: none;
@@ -162,6 +177,7 @@ export default {
     font-weight: 700;
     color: #1564c0 !important;
 }
+
 .box-title h2:before {
     content: "\f005";
     font-family: FontAwesome;
@@ -180,9 +196,11 @@ export default {
     z-index: 9;
     margin-top: 20px;
 }
+
 .box-title h2:before {
     right: auto;
 }
+
 .box-title h2:after {
     content: "";
     height: 2px;
