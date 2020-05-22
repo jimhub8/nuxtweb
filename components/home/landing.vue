@@ -7,7 +7,7 @@
                         <div class="vc_column-inner ">
                             <div class="wpb_wrapper">
                                 <div class="wpb_revslider_element wpb_content_element">
-                                    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400%7CMontserrat:500%2C400%2C300%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+                                    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400%7CMontserrat:500%2C400%2C300%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
                                     <div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_1_1_forcefullwidth" style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px;background: url(https://anpsthemes.com/transport-new-demos/7/wp-content/uploads/2017/12/Intro1.jpg)">
                                         <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: rgb(255, 255, 255); padding: 0px; height: 900px; position: absolute; overflow: visible;background: url(https://anpsthemes.com/transport-new-demos/7/wp-content/uploads/2017/12/Intro1.jpg);">
                                             <!-- START REVOLUTION SLIDER 5.4.6.4 fullwidth mode -->
