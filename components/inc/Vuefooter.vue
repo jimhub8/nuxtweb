@@ -51,8 +51,11 @@
                                 <h3 class="widget-title">Our Contacts</h3>
                                 <div class="textwidget">
                                     <p><strong>Address:</strong> Ngaliema No. 942 colonel Mondjiba Kinshasa RDC</p>
-                                    <p><strong>Phone:</strong> +254 705 529313</p>
-                                    <p><strong>Email:</strong> Info@derriconglobal.com</p>
+                                    <p><strong>Phone:</strong>
+                                    <a href="tel:+243815266724">+243 815 266 724</a>
+                                    </p>
+                                    <p><strong>Email:</strong>
+                                    <a href="mailto:Info@derriconglobal.com">Info@derriconglobal.com</a></p>
                                 </div>
                             </li>
                             <li id="anpssocial-3" class="widget-container widget_anpssocial">
@@ -93,7 +96,7 @@
                         <ul class="text-center">
                             <li id="text-2" class="widget-container widget_text">
                                 <div class="textwidget">
-                                    <p>Transport WordPress theme | © 2018 Transport, All rights reserved</p>
+                                    <p>Derricon Global © 2020 All rights reserved</p>
                                 </div>
                             </li>
                         </ul>

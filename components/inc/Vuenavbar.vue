@@ -1,50 +1,80 @@
 <template>
-<div>
-    <header class="site-header site-header-sticky site-header-layout-normal site-header-style-transparent site-header-divider">
-        <div class="nav-wrap">
-            <div class="container">
-                <div class="site-logo"><a href="#"> <img class="logo-sticky" alt="Site logo" src="/images/logo.jpg">
-                        <img style="width: auto; height: autopx" alt="Site logo" src="/images/logo.jpg">
-                    </a></div>
-                <div class="nav-bar-wrapper">
-                    <div class="nav-bar">
-                        <nav class="site-navigation">
-                            <ul id="menu-main-menu" class="">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-597 current_page_item menu-item-depth-0"><a href="https://anpsthemes.com/transport-new-demos/7/">Home</a></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar-item" :class="{classA: scrollPosition < 150, classB: scrollPosition > 150}">
+    <a class="navbar-brand" href="#">
+        <img style="width: 100px; height: auto" alt="Site logo" src="/images/logo.jpg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0"><a href="#" v-scroll-to="'#services'">Services</a>
-                                    <ul class="sub-menu" data-height="196" style="">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://anpsthemes.com/transport-new-demos/7/storage/">TRANSPORT</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://anpsthemes.com/transport-new-demos/7/logistic/">LOGISTIC</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://anpsthemes.com/transport-new-demos/7/tow-services/">TOW SERVICE</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://anpsthemes.com/transport-new-demos/7/passenger-transport/">PASSENGER TRANSPORT</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://anpsthemes.com/transport-new-demos/7/vehicle-service/">VEHICLE SERVICE</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://anpsthemes.com/transport-new-demos/7/transport/">STORAGE</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-0"><a href="#" v-scroll-to="'#about'">About us</a></li>
-                            </ul>
-                        </nav>
-                        <button class="fa fa-search site-search-toggle"><span class="sr-only">Search</span></button>
-                        <button class="navbar-toggle" type="button">
-                            <span class="sr-only">Toggle navigation</span>
-                            <i class="fa fa-bars" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </header>
-
-
-</div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="float: right;margin-right: 200px !important;">
+            <li class="nav-item active">
+                <nuxt-link to="/">Home</nuxt-link>
+            </li>
+            <li class="nav-item">
+                <nuxt-link to="/">About Us</nuxt-link>
+            </li>
+            <li class="nav-item">
+                <nuxt-link to="/">Services</nuxt-link>
+            </li>
+            <li class="nav-item">
+                <nuxt-link to="/">Contact Us</nuxt-link>
+            </li>
+        </ul>
+    </div>
+</nav>
 </template>
 
 <script>
 // JS
-export default {}
+export default {
+    data() {
+        return {
+            scrollPosition: null
+
+        }
+    },
+
+    methods: {
+        updateScroll() {
+            this.scrollPosition = window.scrollY
+        }
+    },
+
+    mounted() {
+        window.addEventListener('scroll', this.updateScroll);
+    }
+
+}
 </script>
 
-<style lang="scss">
+<style scoped>
+.classA {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.classB {
+    background: #fff !important;
+    color: #000;
+}
+
+#navbar-item {
+    width: 100% !important;
+    position: fixed !important;
+}
+
+.classA .navbar-nav>li>a {
+    margin: 0 20px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.classB .navbar-nav>li>a {
+    margin: 0 20px;
+    color: #000;
+}
+
+.navbar-light .navbar-nav>li>a[data-v-9427474c]:hover {
+    color: rgb(125, 0, 235);
+}
 </style>

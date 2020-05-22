@@ -4,8 +4,11 @@
         <div class="wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                    <h5 style="color: #f4b757;text-align: center" class="vc_custom_heading vc_custom_1515075554776">Professional Services</h5>
-                    <h3 style="text-align: center" class="vc_custom_heading vc_custom_1513858269004">Professional <b>solution</b> for every need</h3>
+                    <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;">
+                        <h2 data-v-6225075b=""><span data-v-6225075b="">Professional Services</span></h2>
+                    </div>
+
+                    <!-- <h3 style="text-align: center" class="vc_custom_heading vc_custom_1513858269004">Professional <b>solution</b> for every need</h3> -->
                 </div>
             </div>
         </div>
@@ -14,7 +17,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1515150361844">
                 <div class="wpb_wrapper">
-                    <p style="color: #fbad58;text-align: left" class="vc_custom_heading">Ecommerce Connectivity</p>
+                    <p style="color: #432a5b;text-align: left" class="vc_custom_heading">Ecommerce Connectivity</p>
                     <h4 style="text-align: left" class="vc_custom_heading">We ensures you the best quality services</h4>
                     <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 
@@ -32,7 +35,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1515150380267">
                 <div class="wpb_wrapper">
-                    <p style="color: #fbad58;text-align: left" class="vc_custom_heading">Transportation System</p>
+                    <p style="color: #432a5b;text-align: left" class="vc_custom_heading">Transportation System</p>
                     <h4 style="text-align: left" class="vc_custom_heading">Very careful handling of valuable goods</h4>
                     <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 
@@ -50,7 +53,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1515150386235">
                 <div class="wpb_wrapper">
-                    <p style="color: #fbad58;text-align: left" class="vc_custom_heading">SAFE</p>
+                    <p style="color: #432a5b;text-align: left" class="vc_custom_heading">SAFE</p>
                     <h4 style="text-align: left" class="vc_custom_heading">Safe and on time delivery of your goods</h4>
                     <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 

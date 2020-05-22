@@ -167,47 +167,4 @@ export default {
 .v-application--wrap {
     background: #fff;
 }
-
-.box-title h2 {
-    position: relative;
-    float: none;
-    text-align: center;
-    font-size: 30px !important;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #1564c0 !important;
-}
-
-.box-title h2:before {
-    content: "\f005";
-    font-family: FontAwesome;
-    font-size: 16px;
-    color: #18bcec;
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    margin-left: -15px;
-    border: 1px #ccc solid;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 23px;
-    background: #fff;
-    z-index: 9;
-    margin-top: 20px;
-}
-
-.box-title h2:before {
-    right: auto;
-}
-
-.box-title h2:after {
-    content: "";
-    height: 2px;
-    background: #ebebeb;
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    right: 0;
-}
 </style>
