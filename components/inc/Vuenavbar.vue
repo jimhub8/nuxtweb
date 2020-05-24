@@ -13,13 +13,13 @@
                 <nuxt-link to="/">Home</nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/">About Us</nuxt-link>
+                <nuxt-link to="/about">About Us</nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/">Services</nuxt-link>
+                <nuxt-link to="/services">Services</nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/">Contact Us</nuxt-link>
+                <nuxt-link to="/contacts">Contact Us</nuxt-link>
             </li>
         </ul>
     </div>
@@ -76,5 +76,33 @@ export default {
 
 .navbar-light .navbar-nav>li>a[data-v-9427474c]:hover {
     color: rgb(125, 0, 235);
+}
+
+.nuxt-link-exact-active {
+    color: rgb(125, 0, 235) !important;
+    /* border-bottom: solid ; */
+}
+.nuxt-link-exact-active::before {
+    content: "";
+    left: 0;
+    height: 25px;
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+}
+
+.nuxt-link-exact-active::after {
+    opacity: 1;
+    left: 10px;
+    right: 10px;
+    background-color: currentColor;
+    bottom: 5px;
+    content: "";
+    left: 7px;
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    right: 7px;
+    transition: .3s opacity;
 }
 </style>
