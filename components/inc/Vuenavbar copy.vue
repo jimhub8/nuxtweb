@@ -4,8 +4,8 @@
         <div class="nav-wrap">
             <div class="container">
                 <div class="site-logo"><a href="#">
-                  <img class="logo-sticky" alt="Site logo" src="/images/logo.jpg">
-                        <img style="width: auto; height: autopx" alt="Site logo" src="/images/logo.jpg">
+                  <img class="logo-sticky" alt="Site logo" src="/images/logo.png">
+                        <img style="width: auto; height: autopx" alt="Site logo" src="/images/logo.png">
                     </a></div>
                 <div class="nav-bar-wrapper">
                     <div class="nav-bar">
@@ -48,4 +48,7 @@ export default {}
 </script>
 
 <style lang="scss">
+#navbar-item[data-v-9427474c] {
+  height: 150px;
+}
 </style>

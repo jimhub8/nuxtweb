@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar-item" :class="{classA: scrollPosition < 150, classB: scrollPosition > 150}">
     <a class="navbar-brand" href="#">
-        <img style="width: 100px; height: auto" alt="Site logo" src="/images/logo.jpg">
+        <img style="width: 100px; height: auto;margin-top: -60px;" alt="Site logo" src="/images/logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,7 +55,7 @@ export default {
 }
 
 .classB {
-    background: #fff !important;
+    background: #f0f0f0 !important;
     color: #000;
 }
 
@@ -82,6 +82,7 @@ export default {
     color: rgb(125, 0, 235) !important;
     /* border-bottom: solid ; */
 }
+
 .nuxt-link-exact-active::before {
     content: "";
     left: 0;
@@ -104,5 +105,9 @@ export default {
     position: absolute;
     right: 7px;
     transition: .3s opacity;
+}
+
+#navbar-item[data-v-9427474c] {
+    height: 150px;
 }
 </style>
