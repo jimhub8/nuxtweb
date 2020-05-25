@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar-item" :class="{classA: scrollPosition < 150, classB: scrollPosition > 150}">
     <a class="navbar-brand" href="#">
-        <img style="width: 100px; height: auto;margin-top: -60px;" alt="Site logo" src="/images/logo.png">
+        <img style="width: 100px; height: auto;margin-top: -20px;" alt="Site logo" src="/images/logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -107,7 +107,7 @@ export default {
     transition: .3s opacity;
 }
 
-#navbar-item[data-v-9427474c] {
+#navbar-item {
     height: 150px;
 }
 </style>
