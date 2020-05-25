@@ -1,6 +1,6 @@
 <template>
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1514979444160 vc_column-gap-30 vc_row-o-content-middle vc_row-flex" style="padding: 0 120px">
-    <div class="wpb_column vc_column_container vc_col-sm-6">
+    <div class="wpb_column vc_column_container vc_col-sm-4">
         <div class="vc_column-inner ">
             <div class="wpb_wrapper">
                 <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;">
@@ -15,11 +15,11 @@
                     </div>
                 </div>
                 <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
-                <!-- <button class="btn btn-sm style-4" id="custom-id-0" style=""><i class="fa fa-chevron-right"></i>More details</button> -->
+
             </div>
         </div>
     </div>
-    <div class="wpb_column vc_column_container vc_col-sm-6">
+    <div class="wpb_column vc_column_container vc_col-sm-4">
         <div class="vc_column-inner ">
             <div class="wpb_wrapper">
 
@@ -32,6 +32,28 @@
                     <div class="wpb_wrapper">
                         <p>To be the global digital leader in complex supply chain logistics services.
                         </p>
+
+                    </div>
+                </div>
+                <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
+                <!-- <button class="btn btn-sm style-4" id="custom-id-1" style=""><i class="fa fa-chevron-right"></i>More details</button> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-4">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+
+                <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;">
+                    <h2 data-v-6225075b=""><span data-v-6225075b="">Derricon Global Customs Consulting</span></h2>
+                </div>
+                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+
+                <div class="wpb_text_column wpb_content_element ">
+                  <p>Consult on, Risk Assess & Enhance Your Customs Activities</p>
+                    <div class="wpb_wrapper">
+                        <p>Our customs consultants can review your supply chain to help enhance customs activities, optimize duties, identify potential risk areas and optimize internal controls and procedures to maximize internal compliance.</p>
 
                     </div>
                 </div>
