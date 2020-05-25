@@ -2,9 +2,11 @@
 <!-- <div class="site-wrapper "> -->
 <div >
     <Vueheader />
+    <transition name="fade">
     <nuxt />
+</transition>
     <vueFooter />
-    
+
 </div>
 </template>
 
@@ -17,3 +19,15 @@ export default {
     },
 }
 </script>
+
+<style>
+
+
+.fade-enter-active{
+  transition: opacity 2s, transform 2s;
+}
+.fade-enter{
+  opacity: 0;
+  transform: translate(20px);
+}
+</style>

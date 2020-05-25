@@ -29,10 +29,7 @@ export default {
 
       // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/css/wordpress.css?ver=4.9.14' },
       // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/themes/transport/custom.css?ver=4.9.14' },
-      // { rel: 'stylesheet', href: 'http://anpsthemes.com/transport-new-demos/7/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.5' },
-
-
-
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css' },
 
       { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' },
       { rel: 'script', href: 'https://code.jquery.com/jquery-3.5.1.slim.min.js' },

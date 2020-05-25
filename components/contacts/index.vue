@@ -1,55 +1,62 @@
 <template lang="en-US">
+        <v-app>
 <section class="container">
     <div class="normal">
+            <v-row>
+                <v-col cols="12" sm="4">
+                    <v-hover v-slot:default="{ hover }" close-delay="200" open-delay="200">
+                        <v-card :elevation="hover ? 16 : 2" class="mx-auto" height="350" max-width="350">
+                            <VCardTitle primary-title>
+                                <VIcon>home</VIcon>
+                            </VCardTitle>
+                            <v-card-text class="font-weight-medium mt-12 text-center subtitle-1">
+                                <h3>VISIT US</h3>
+                                <p>Visit our offices in the below location to interact with us as we offer you services you deserve</p>
 
+                                <address>
+                                    Ngaliema No. 942 colonel Mondjiba Kinshasa RDC
+                                </address>
+                            </v-card-text>
+                        </v-card>
+                    </v-hover>
+                </v-col>
+
+                <v-col cols="12" sm="4">
+                    <v-hover v-slot:default="{ hover }" close-delay="200" open-delay="200">
+                        <v-card :elevation="hover ? 16 : 2" class="mx-auto" height="350" max-width="350">
+                            <VCardTitle primary-title>
+                                <VIcon>call</VIcon>
+                            </VCardTitle>
+                            <v-card-text class="font-weight-medium mt-12 text-center subtitle-1">
+                                <h3>CALL US</h3>
+                                <p>Please give us a call for any information and clarification via</p>
+                                <a href="tel:+243815266724">+243 815 266 724</a>
+                            </v-card-text>
+                        </v-card>
+                    </v-hover>
+                </v-col>
+
+                <v-col cols="12" sm="4">
+                    <v-hover v-slot:default="{ hover }" close-delay="200" open-delay="200">
+                        <v-card :elevation="hover ? 16 : 2" class="mx-auto" height="350" max-width="350">
+                            <VCardTitle primary-title>
+                                <VIcon>email</VIcon>
+                            </VCardTitle>
+                            <v-card-text class="font-weight-medium mt-12 text-center subtitle-1">
+                                <h3>CONTACT US</h3>
+                                <p>Email us via</p>
+                                <a href="mailto:Info@derriconglobal.com">Info@derriconglobal.com</a></p>
+                            </v-card-text>
+                        </v-card>
+                    </v-hover>
+                </v-col>
+            </v-row>
         <div class="vc_row wpb_row vc_row-fluid vc_custom_1513940636934 vc_column-gap-30 vc_row-o-content-middle vc_row-flex">
-            <div class="wpb_column vc_column_container vc_col-sm-6">
-                <div class="vc_column-inner ">
-                    <div class="wpb_wrapper">
-                        <p style="color: #f6b457;text-align: left" class="vc_custom_heading">Get in touch</p>
-                        <h5 style="font-size: 22px;text-align: left" class="vc_custom_heading">Feel free to talk to our representative at any time you please use our contact form on our website or one of our contact numbers.</h5>
-                        <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
 
-                        <div class="wpb_text_column wpb_content_element ">
-                            <div class="wpb_wrapper">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a convallis ligula. Integer tincidunt ligula a purus volutpat gravida. Proin sollicitudin bibendum nibh. Suspendisse potenti. Aliquam sed erat molestie, pretium nisl nec, aliquam ipsum. Nam quis aliquam est, suscipit suscipit ipsum.</p>
-
-                            </div>
-                        </div>
-                        <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
-                        <div class="icon style-2 icon-left">
-                            <span>
-                                <i class="fa fa-map-marker"></i>
-                                <h2>Ngaliema No. 942 colonel Mondjiba Kinshasa RDC</h2>
-                                <h3 class="style-2"></h3>
-                            </span>
-                            <p></p>
-                        </div>
-                        <div class="icon style-2 icon-left">
-                            <span>
-                                <i class="fa fa-phone"></i>
-                                <h2>
-                                    <a href="tel:+243815266724">+243 815 266 724</a>
-                                </h2>
-                                <h3 class="style-2"></h3>
-                            </span>
-                            <p></p>
-                        </div>
-                        <div class="icon style-2 icon-left">
-                            <span>
-                                <i class="fa fa-envelope-o"></i>
-                                    <a href="mailto:Info@derriconglobal.com">Info@derriconglobal.com</a></p>
-                                <h3 class="style-2"></h3>
-                            </span>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
+            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
                 <div class="vc_column-inner vc_custom_1515058776412">
                     <div class="wpb_wrapper">
-                        <h4 style="font-size: 32px;text-align: left" class="vc_custom_heading">Contact us</h4>
+                        <h4 style="font-size: 32px;text-align: left;color: #999" class="vc_custom_heading">Contact us</h4>
                         <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
                         <div role="form" class="wpcf7" id="wpcf7-f1260-p15-o1" lang="en-US" dir="ltr">
                             <div class="screen-reader-response"></div>
@@ -81,4 +88,23 @@
 
     </div>
 </section>
+        </v-app>
+
 </template>
+
+<style lang="scss">
+.v-icon.v-icon {
+    margin: auto;
+    font-size: 40px;
+    color: #442a5c;
+}
+
+.theme--dark.v-card {
+    background-color: #fff;
+}
+
+.v-card>*:last-child:not(.v-btn):not(.v-chip) {
+    color: #999 !important;
+
+}
+</style>
