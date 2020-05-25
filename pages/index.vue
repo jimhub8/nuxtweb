@@ -17,7 +17,7 @@ export default {
             meta: [{
                 hid: 'description',
                 name: 'description',
-                content: 'Derricon Global'
+                content: 'Drive innovative business processes, deep data analytics, ecommerce connectivity and people development.'
             }]
         }
     }
