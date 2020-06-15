@@ -52,7 +52,7 @@
                                 <div class="textwidget">
                                     <p><strong>Address:</strong> Ngaliema No. 942 colonel Mondjiba Kinshasa RDC</p>
                                     <p><strong>Phone:</strong>
-                                    <a href="tel:+243815266724">+243 815 266 724</a>
+                                    <a href="tel:+254795367024">+254 795 367 024</a>
                                     </p>
                                     <p><strong>Email:</strong>
                                     <a href="mailto:Info@derriconglobal.com">Info@derriconglobal.com</a></p>

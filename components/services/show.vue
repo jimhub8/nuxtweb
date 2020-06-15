@@ -2,7 +2,7 @@
 <el-dialog :title="title" :visible.sync="outerVisible">
     <span v-html="content"></span>
     <div slot="footer" class="dialog-footer">
-        <el-button @click="outerVisible = false">Cancel</el-button>
+        <el-button @click="outerVisible = false">close</el-button>
     </div>
 </el-dialog>
 </template>

@@ -32,8 +32,8 @@
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
                                               <p>Thank you.</p>
-                                                <p><strong>Samuel O. Ogutu</strong><br>
-                                                    Chief Executive Officer</p>
+                                                <!-- <p><strong>Samuel O. Ogutu</strong><br> -->
+                                                    C.E.O</p>
 
                                             </div>
                                         </div>

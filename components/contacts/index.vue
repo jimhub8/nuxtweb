@@ -30,7 +30,7 @@
                             <v-card-text class="font-weight-medium mt-12 text-center subtitle-1">
                                 <h3>CALL US</h3>
                                 <p>Please give us a call for any information and clarification via</p>
-                                <a href="tel:+243815266724">+243 815 266 724</a>
+                                <a href="tel:+254795367024">+254 795 367 024</a>
                             </v-card-text>
                         </v-card>
                     </v-hover>
