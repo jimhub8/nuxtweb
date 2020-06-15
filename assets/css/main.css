@@ -746,14 +746,14 @@ site-header a.menu-button:hover, site-header a.menu-button:focus, .menu-button:h
   font-size: 30px !important;
   text-transform: uppercase;
   font-weight: 700;
-  color: #6c1cb3 !important;
+  color: #194a9b !important;
 }
 
 .box-title h2:before {
   content: "\f005";
   font-family: FontAwesome;
   font-size: 16px;
-  color: #452b5cad;
+  color: #194a9b;
   position: absolute;
   bottom: -20px;
   left: 50%;
