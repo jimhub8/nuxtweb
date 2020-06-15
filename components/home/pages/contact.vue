@@ -4,7 +4,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
-                    <h5 style="color: #432a5b;text-align: center" class="vc_custom_heading vc_custom_1515145466419">Our Services</h5>
+                    <h5 style="color: #194a9b;text-align: center" class="vc_custom_heading vc_custom_1515145466419">Our Services</h5>
                     <h3 style="text-align: center" class="vc_custom_heading vc_custom_1515076884742">The complete <b>solution</b></h3>
                 </div>
             </div>

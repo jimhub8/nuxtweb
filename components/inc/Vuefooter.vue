@@ -3,35 +3,32 @@
         <footer class="site-footer style-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-4 col-xs-12">
                         <ul>
                             <li id="anps_menu-2" class="widget-container anps_menu_widget">
                                 <h3 class="widget-title">About Company</h3>
                                 <ul id="menu-footer-menu-1" class="menu menu-1-column">
-                                    <li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><a href="#">About us</a></li>
-                                    <li id="menu-item-1611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1611"><a href="#"</a></li>
-                                    <li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><a href="#">Vehicle fleet</a></li>
-                                    <li id="menu-item-1143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1143"><a href="#">Vehicle service</a></li>
-                                    <li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="#">Contact us</a></li>
+                                    <li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><nuxt-link to="/about">About us</nuxt-link></li>
+                                    <li id="menu-item-1611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1611"><nuxt-link to=""></nuxt-link></li>
+                                    <li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142"><nuxt-link to="/services">Vehicle fleet</nuxt-link></li>
+                                    <li id="menu-item-1143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1143"><nuxt-link to="/services">Vehicle service</nuxt-link></li>
+                                    <li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><nuxt-link to="/contacts">Contact us</nuxt-link></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <!-- <div class="col-md-4 col-xs-12">
                         <ul>
                             <li id="anps_menu-3" class="widget-container anps_menu_widget">
                                 <h3 class="widget-title">Navigation</h3>
                                 <ul id="menu-footer-menu-2" class="menu menu-1-column">
                                     <li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-597 current_page_item menu-item-1602"><a href="#">Home</a></li>
                                     <li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="#">Shop</a></li>
-                                    <li id="menu-item-1603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"><a href="#/">404 page</a></li>
-                                    <li id="menu-item-1599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1599"><a href="#">Blog grid view</a></li>
-                                    <li id="menu-item-1600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="#">Blog masonry</a></li>
                                 </ul>
                             </li>
                         </ul>
-                    </div>
-                    <div class="col-md-3 tablets-clear col-xs-12">
+                    </div> -->
+                    <div class="col-md-4 tablets-clear col-xs-12">
                         <ul>
                             <li id="anps_menu-4" class="widget-container anps_menu_widget">
                                 <h3 class="widget-title">Resources</h3>
@@ -45,7 +42,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-4 col-xs-12">
                         <ul>
                             <li id="text-13" class="widget-container widget_text">
                                 <h3 class="widget-title">Our Contacts</h3>
