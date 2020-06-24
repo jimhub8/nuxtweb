@@ -75,11 +75,11 @@ export default {
 }
 
 .navbar-light .navbar-nav>li>a[data-v-9427474c]:hover {
-    color: rgb(125, 0, 235);
+    color: rgb(237, 130, 50);
 }
 
 .nuxt-link-exact-active {
-    color: rgb(125, 0, 235) !important;
+    color: rgb(237, 130, 50) !important;
     /* border-bottom: solid ; */
 }
 

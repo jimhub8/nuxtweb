@@ -26,12 +26,12 @@
                             <div class="vc_column-inner vc_custom_1532441629438">
                                 <div class="wpb_wrapper">
                                     <h6 style="font-size: 18px;line-height: 32px;text-align: left" class="vc_custom_heading text767-align-center" data-mobile-font="inherit" data-tablet-font="inherit">Derriconglobal<br>
-                                        Office in RDC</h6>
+                                        RDC Office</h6>
                                     <div class="wpb_text_column wpb_content_element  vc_custom_1589810463252">
                                         <div class="wpb_wrapper">
                                             <div class="et-el-icon extra-small " style="color:#f7a700;"><span class="el-icon fa fa-map-marker-alt animate-false"></span></div>
-                                            <v-icon small>mdi-map-marker</v-icon>Av De Mushie No. 342 Lingwala, Kinshasa Rdc<div class="gap et-clearfix " style="height:1px"></div>
-                                            <div class="et-el-icon extra-small " style="color:#f7a700;"><span class="el-icon fa fa-phone animate-false"></span></div><v-icon small>mdi-phone</v-icon>+234 904 259 7565<div class="gap et-clearfix " style="height:1px"></div>
+                                            <v-icon small>mdi-map-marker</v-icon>Avenue Des Huilleries No 342, Kinshasa Rdc<div class="gap et-clearfix " style="height:1px"></div>
+                                            <div class="et-el-icon extra-small " style="color:#f7a700;"><span class="el-icon fa fa-phone animate-false"></span></div><v-icon small>mdi-phone</v-icon>+243 821 699 868<div class="gap et-clearfix " style="height:1px"></div>
                                             <div class="et-el-icon extra-small " style="color:#f7a700;"><span class="el-icon fa fa-envelope-open animate-false"></span></div><v-icon small>mdi-email</v-icon> info@derriconglobal.com<p></p>
 
                                         </div>

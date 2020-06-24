@@ -1,10 +1,10 @@
 <template>
 <!-- <div class="site-wrapper "> -->
-<div >
+<div class="app">
     <Vueheader />
     <transition name="fade">
-    <nuxt />
-</transition>
+        <nuxt />
+    </transition>
     <vueFooter />
 
 </div>
@@ -15,19 +15,23 @@ import Vueheader from "../components/inc/Vuenavbar";
 import vueFooter from "../components/inc/Vuefooter";
 export default {
     components: {
-        Vueheader, vueFooter
+        Vueheader,
+        vueFooter
     },
 }
 </script>
 
 <style>
-
-
-.fade-enter-active{
-  transition: opacity 2s, transform 2s;
+.app {
+    font-family: 'Montserrat', sans-serif;
 }
-.fade-enter{
-  opacity: 0;
-  transform: translate(20px);
+
+.fade-enter-active {
+    transition: opacity 2s, transform 2s;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translate(20px);
 }
 </style>

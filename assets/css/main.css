@@ -746,7 +746,11 @@ site-header a.menu-button:hover, site-header a.menu-button:focus, .menu-button:h
   font-size: 30px !important;
   text-transform: uppercase;
   font-weight: 700;
-  color: #194a9b !important;
+  color: #ed8232 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ed8232 !important;
 }
 
 .box-title h2:before {
