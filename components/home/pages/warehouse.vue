@@ -17,7 +17,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1515150361844">
                 <div class="wpb_wrapper">
-                    <p style="color: #194a9b;text-align: left" class="vc_custom_heading">Ecommerce Connectivity</p>
+                    <p style="color: #ed8232;text-align: left" class="vc_custom_heading">Ecommerce Connectivity</p>
                     <h4 style="text-align: left" class="vc_custom_heading">We ensures you the best quality services</h4>
                     <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 
@@ -35,7 +35,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1515150380267">
                 <div class="wpb_wrapper">
-                    <p style="color: #194a9b;text-align: left" class="vc_custom_heading">Transportation System</p>
+                    <p style="color: #ed8232;text-align: left" class="vc_custom_heading">Transportation System</p>
                     <h4 style="text-align: left" class="vc_custom_heading">Very careful handling of valuable goods</h4>
                     <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 
@@ -53,7 +53,7 @@
         <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1515150386235">
                 <div class="wpb_wrapper">
-                    <p style="color: #194a9b;text-align: left" class="vc_custom_heading">SAFE</p>
+                    <p style="color: #ed8232;text-align: left" class="vc_custom_heading">SAFE</p>
                     <h4 style="text-align: left" class="vc_custom_heading">Safe and on time delivery of your goods</h4>
                     <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
 

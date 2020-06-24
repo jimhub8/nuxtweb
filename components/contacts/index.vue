@@ -153,7 +153,7 @@
 .v-icon.v-icon {
     margin: auto;
     font-size: 40px;
-    color: #194a9b;
+    color: #ed8232;
 }
 
 .theme--dark.v-card,
