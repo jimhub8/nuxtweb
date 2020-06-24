@@ -7,7 +7,6 @@
                     <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;">
                         <h2 data-v-6225075b=""><span data-v-6225075b="">Professional Services</span></h2>
                     </div>
-
                     <!-- <h3 style="text-align: center" class="vc_custom_heading vc_custom_1513858269004">Professional <b>solution</b> for every need</h3> -->
                 </div>
             </div>
@@ -74,7 +73,9 @@
         <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-3 vc_col-lg-6 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1 vc_col-has-fill">
             <div class="vc_column-inner vc_custom_1513858780991" style="background: #fff;padding: 50px 0;">
                 <div class="wpb_wrapper">
-                    <p style="font-size: 26px;color: #262626;text-align: left; margin-left: 20px" class="vc_custom_heading vc_custom_1513858547698">Professional Services</p>
+                    <div data-v-6225075b="" class="box-title" style="margin: 30px 0px;">
+                        <h2 data-v-6225075b=""><span data-v-6225075b="">Professional Services</span></h2>
+                    </div>
                     <h3 style="font-size: 32px;line-height: 1em;text-align: left; margin-left: 20px" class="vc_custom_heading vc_custom_1513858727650"><b>Get your transport quote</b></h3>
                     <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
                     <div role="form" class="wpcf7" id="wpcf7-f621-p597-o1" lang="en-US" dir="ltr">
